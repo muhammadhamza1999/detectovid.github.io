@@ -7,7 +7,7 @@ function generateEmail(username) {
      * OUTPUTS
      * - Virufy email with specified username
      */
-    const domain = 'detectovid.org';
+    const domain = 'alumni.stanford.org';
     return username + '@' + domain;
 }
 
