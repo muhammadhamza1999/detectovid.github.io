@@ -2687,36 +2687,32 @@ table.alt tfoot {
 
 /* Button */
 
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-button,
-.button {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
-	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	background-color: transparent;
-	box-shadow: inset 0 0 0 3px #6cc091;
-	color: #6cc091 !important;
-	border-radius: 30px;
-	border: 0;
-	cursor: pointer;
-	display: inline-block;
-	font-size: .9em;
-	font-weight: 400;
-	height: 3.75em;
-	line-height: 3.85em;
-	letter-spacing: 2px;
-	padding: 0 2em;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	white-space: nowrap;
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 3px #fd6850;
+    color: #c80e0e !important;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .9em;
+    font-weight: 400;
+    height: 3.75em;
+    line-height: 3.85em;
+    letter-spacing: 2px;
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
 
 input[type="submit"]:hover,
@@ -3094,14 +3090,14 @@ button:disabled,
 	color: #000;
 }
 
-#banner:before {
-	content: '';
-	background: rgba(74, 73, 75, 0.85);
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+#banner::before {
+    content: '';
+    background: rgba(27, 132, 196, 0.35);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 #banner .inner {
@@ -3129,8 +3125,8 @@ button:disabled,
 }
 
 #banner .icon {
-	color: #6cc091;
-	font-size: 2em;
+    color: #f45c59;
+    font-size: 2em;
 }
 
 #banner p {
@@ -3267,11 +3263,10 @@ button:disabled,
 /* Footer */
 
 #footer {
-	padding: 3em 0;
-	/* To bring the footer heading closer to section's top edge*/
-	background: #6cc091;
-	color: #fff;
-	text-align: center;
+    padding: 3em 0;
+    background: #59c5ff;
+    color: #fff;
+    text-align: center;
 }
 
 #footer h3 {
@@ -3379,10 +3374,14 @@ button:disabled,
 	}
 }
 
-#header-virufy-span {
-	color: #6cc091;
+#header button {
+    background-color: #d72a26 !important;
+    box-shadow: inset 0 0 0 3px #ff6e5f;
+    color: #fff !important;
+    font-weight: bold;
+    height: 2.75em !important;
+    line-height: 2.75em !important;
 }
-
 /* 'Get in touch' h1 */
 #footer h1 {
 	font-size: 48px;
@@ -3515,9 +3514,9 @@ img.virufy-image {
 
 /* Yujesh's Styles for Donate button */
 #header button {
-    background-color: #00725e !important;
-    box-shadow: inset 0 0 0 3px #4bae77;
-    color: #95fbc2 !important;
+    background-color: #d72a26 !important;
+    box-shadow: inset 0 0 0 3px #ff6e5f;
+    color: #fff !important;
     font-weight: bold;
     height: 2.75em !important;
     line-height: 2.75em !important;
@@ -3534,8 +3533,9 @@ img.virufy-image {
 
 /* Green highlight class for text/hyperlinks */
 .green-highlight {
-	color: #6cc091;
-}
+    color: #ff6f6c;
+    font-weight: bold;
+} 
 
 /* For replacing inline styles */
 .bold {
