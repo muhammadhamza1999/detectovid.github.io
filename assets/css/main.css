@@ -2,14 +2,16 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
 :root {
   --header-height: 4.5em;
-  --h-color: rgb(240, 72, 72);
-  --h-color-hover: rgba(160, 64, 64, 0.8);
-  --h-color-shadow: rgba(160, 64, 64, 0.2);
+  --h-color: #274986;
+  --h-color-hover: #12141d;
+  --h-color-shadow: #9fa8cb;
+  --action-icon-color: rgb(240, 72, 72);
   --body-color: rgb(72, 72, 72);
   --body-bg-color: #fff;
-  --footer-color: rgb(240, 160, 160);
-  --footer-bg-color: rgba(240, 72, 72, 0.9);
-  --title-color: rgb(255, 255, 255);
+  --footer-color: #bfc4dc;
+  --footer-bg-color: #4f6aab;
+  --title-color: #ffffff;
+  --button-hover-bg-color: #d2dbfe;
   --subtitle-color: rgb(192, 192, 192);
   --header-color: #d5d5d5;
   --inner-max-width: 75em;
@@ -17,6 +19,10 @@
   --p-margin-top-negative: -0.8em;
   --p-margin-bottom: 1em;
 }
+
+
+/*   --action-icon-color: #32cd32;
+*/
 
 
 /*
@@ -1257,7 +1263,7 @@ input[type="submit"].alt, input[type="reset"].alt, input[type="button"].alt, but
 }
 
 input[type="submit"].alt:hover, input[type="reset"].alt:hover, input[type="button"].alt:hover, button.alt:hover, .button.alt:hover {
-  background: #fceced;
+  background: var(--button-hover-bg-color);
 }
 
 input[type="submit"].alt:active, input[type="reset"].alt:active, input[type="button"].alt:active, button.alt:active, .button.alt:active {
@@ -2754,8 +2760,12 @@ body {
 }
 
 #banner .icon {
-  color: var(--h-color);
+  color: var(--action-icon-color);
   font-size: 2em;
+}
+
+.icon-color {
+  color: var(--action-icon-color);
 }
 
 #banner .actions {
