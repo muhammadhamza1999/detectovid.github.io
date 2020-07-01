@@ -2743,6 +2743,12 @@ body {
   font-weight: 400;
 }
 
+/* Changing subtitle colour to white for banner on index.html. 
+Feature requested by Usama Altaf Zahid.*/
+#banner .subtitle h1 {
+  color: var(--title-color);
+}
+
 #banner .action-title {
   font-size: 1em;
   font-weight: 300;
